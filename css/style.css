@@ -1107,7 +1107,8 @@ a.btn-more, a.btn-what, a.btn-write, a.btn-phone, a.btn-inst {
   padding: 35px 15px;
   display: -webkit-box;
   display: flex;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   max-width: 100%;
 }
 
@@ -1195,7 +1196,7 @@ a.btn-more, a.btn-what, a.btn-write, a.btn-phone, a.btn-inst {
 
 .input:not([type="radio"]):not([type="checkbox"]) {
   font: inherit;
-  color: #BDBDBD;
+  color: #32495E;
   background: none;
   max-width: 100%;
   border: 0;
@@ -1213,61 +1214,216 @@ a.btn-more, a.btn-what, a.btn-write, a.btn-phone, a.btn-inst {
 
 .input:not([type="radio"]):not([type="checkbox"]).placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-webkit-input-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-moz-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"]):-ms-input-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-ms-input-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"]):-moz-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-moz-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"]):-ms-input-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-ms-input-placeholder {
   opacity: 1;
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(50, 73, 94, 0.6);
 }
 
 .input:not([type="radio"]):not([type="checkbox"])::-webkit-input-placeholder {
   opacity: 1;
+  color: rgba(50, 73, 94, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"]) {
+  color: #BDBDBD;
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"]).placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-webkit-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"]):-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"]):-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"]):-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.input--white:not([type="radio"]):not([type="checkbox"])::-webkit-input-placeholder {
   color: rgba(189, 189, 189, 0.6);
 }
 
 .input-input + .input-input {
   margin-top: -1em;
+}
+
+.textarea {
+  font: inherit;
+  color: #32495E;
+  background: none;
+  border: 2px solid #8093AC;
+  width: 100%;
+  border-radius: 1em;
+  padding: 1em;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 5em;
+  height: 8em;
+  font-size: 0.875rem;
+}
+
+.textarea.placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-webkit-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea:-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea:-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea:-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea::-webkit-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white {
+  color: #BDBDBD;
+}
+
+.textarea--white.placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-webkit-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white:-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white:-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white:-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-ms-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.textarea--white::-webkit-input-placeholder {
+  color: rgba(189, 189, 189, 0.6);
 }
 
 .modal-form {
@@ -1286,7 +1442,7 @@ a.btn-more, a.btn-what, a.btn-write, a.btn-phone, a.btn-inst {
   margin: 0 -12px 1.5em;
 }
 
-.modal-form input.input {
+.modal-form input.input, .modal-form .textarea {
   margin-bottom: 3em !important;
 }
 
@@ -1523,7 +1679,7 @@ tbody[data-sort-id$="@body"] {
   transition: opacity 0.4s, transform 0.4s, pointer-events 0.4s, -webkit-transform 0.4s;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
-  visibility: inherit;
+  visibility: visible;
 }
 
 .header__mobile-button {
@@ -1648,6 +1804,15 @@ tbody[data-sort-id$="@body"] {
 
 .price-service--sort table tr, table.price-service--sort tr {
   width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.price-service--sort table .price-service__right, table.price-service--sort .price-service__right {
+  width: 7.6em;
+  white-space: nowrap;
 }
 
 .fhoto-video-card {
@@ -1724,7 +1889,7 @@ tbody[data-sort-id$="@body"] {
   width: 24px;
   height: 24px;
   opacity: 1;
-  visibility: initial;
+  visibility: visible;
   z-index: 1;
   top: auto;
   bottom: calc(2.4em + 35px);
@@ -2102,8 +2267,8 @@ tbody[data-sort-id$="@body"] {
 }
 
 .grid-contact-btn__wrapper.active {
-  pointer-events: initial;
-  visibility: initial;
+  pointer-events: all;
+  visibility: visible;
   -webkit-transition: visibility 0s 0s;
   transition: visibility 0s 0s;
 }
@@ -2153,6 +2318,9 @@ tbody[data-sort-id$="@body"] {
           justify-content: center;
   margin-bottom: 20px;
   padding: 10px;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  position: relative;
 }
 
 .grid-feature__img::before {
@@ -2163,10 +2331,14 @@ tbody[data-sort-id$="@body"] {
 }
 
 .grid-feature__img img, .grid-feature__img svg {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: calc(100% - 20px);
+  max-height: calc(100% - 20px);
   width: auto;
-  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .grid-feature__title {
@@ -2648,6 +2820,7 @@ tbody[data-sort-id$="@body"] {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
             flex-direction: row;
+    width: 260px;
   }
   .grid-contact-btn__wrapper button + button, .grid-contact-btn__wrapper button + a, .grid-contact-btn__wrapper a + button, .grid-contact-btn__wrapper a + a {
     margin-left: 20px;
