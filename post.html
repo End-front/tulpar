@@ -48,7 +48,7 @@
           </div>
         </button>
         <ul class="header__list">
-          <li class="header__item"><a href="/">Главная</a></li>
+          <li class="header__item"><a href="index.html">Главная</a></li>
           <li class="header__item header__item--has-submenu">
             <span>Наши услуги</span>
             <ul class="submenu">
@@ -77,7 +77,7 @@
   <section class="section section--eq-padding section--sub-first ibg section--sub-first-black">
     <img src="img/sub-first-5.jpg" alt="img">
     <div class="container">
-      <h1 class="h1">название новости или совета <br> в две строки не более</h1>
+      <h1 class="h1">название новости или совета в две строки не более</h1>
       <p class="text-big substronges"></p>
     </div>
   </section>
@@ -159,7 +159,7 @@
           <div class="footer__col__title text-big">Карта сайта</div>
           <nav>
             <ul class="footer__col__list">
-              <li><a href="/">Главная</a></li>
+              <li><a href="index.html">Главная</a></li>
               <li><a href="servise.html">Наши услуги</a></li>
               <li><a href="fhoto-video.html">Отчеты</a></li>
               <li><a href="contact.html">О нас</a></li>
@@ -175,10 +175,10 @@
             <li><a href="mailto:support@test.kz">support@test.kz</a></li>
             <li>
               <ul class="social-list">
-                <li><a class="social-list__fb" href="https://t.me/danisfrontend"></a></li>
-                <li><a class="social-list__google" href="https://t.me/danisfrontend"></a></li>
-                <li><a class="social-list__vk" href="https://vk.com/iddan0000"></a></li>
-                <li><a class="social-list__youtube" href="https://vk.com/iddan0000"></a></li>
+                <li><a target="_blank" class="social-list__fb" href="https://t.me/danisfrontend"></a></li>
+                <li><a target="_blank" class="social-list__google" href="https://t.me/danisfrontend"></a></li>
+                <li><a target="_blank" class="social-list__vk" href="https://vk.com/iddan0000"></a></li>
+                <li><a target="_blank" class="social-list__youtube" href="https://vk.com/iddan0000"></a></li>
               </ul>
             </li>
           </ul>
@@ -221,8 +221,8 @@
       <div class="modal-content">
         <form class="modal-form" action="/" method="get">
           <h2 class="h2">Оставьте свои данные</h2>
-          <input class="input" type="text" placeholder="Введите имя">
-          <input class="input" type="text" placeholder="Номер телефона">
+          <input class="input input--white" type="text" placeholder="Введите имя">
+          <input class="input input--white" type="text" placeholder="Номер телефона">
           <button class="btn btn--white">Отправить</button>
         </form>
       </div>
@@ -234,8 +234,8 @@
         <form class="modal-form" action="/" method="get">
           <h2 class="h2">Задайте свой вопрос</h2>
           <input class="input" type="text" placeholder="Email">
-          <textarea class="textarea">У меня проблема!</textarea>
-          <button class="btn btn--white">Отправить</button>
+          <textarea placeholder="У меня проблема!" class="textarea"></textarea>
+          <button class="btn">Отправить</button>
         </form>
       </div>
     </div>
